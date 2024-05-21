@@ -1,0 +1,15 @@
+name: 'Hello Perl'
+description: 'Perl Github Action Template'
+inputs:
+  template-input:  # Change this
+    description: 'What it's about'
+    required: true # or not
+    default: 'World'
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/checkout@v4
+    - run: print %ENV;
+      shell: perl {0}
+    - run: ./action.pl
+
