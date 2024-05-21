@@ -10,3 +10,5 @@ After reading the template, you will have to change
   inputs will have to be changed, as well as description
 - [`action.pl`](action.pl) is the script that will have to be run, generally on
   downloaded source.
+
+Change this README too, to explain how to use your template.
