@@ -12,3 +12,4 @@ runs:
     - run: print %ENV;
       shell: perl {0}
     - run: ./action.pl
+      shell: bash
