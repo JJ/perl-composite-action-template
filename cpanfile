@@ -1,0 +1,1 @@
+requires "App::FatPacker";

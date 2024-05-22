@@ -11,5 +11,5 @@ runs:
     - uses: actions/checkout@v4
     - run: print %ENV;
       shell: perl {0}
-    - run: ./action.pl
+    - run: ${GITHUB_ACTION_PATH}/action.pl
       shell: bash
