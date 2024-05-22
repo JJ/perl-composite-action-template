@@ -10034,4 +10034,6 @@ use Action qw(getRef);
 
 my $ref= getRef();
 
+say "Ref is $ref";
+
 exit(1) unless $ref;
