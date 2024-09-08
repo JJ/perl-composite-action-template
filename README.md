@@ -24,6 +24,10 @@ cpanm --installdeps .
 
 to install `fatpack`, needed to generate the single-file script.
 
+You might want to add
+[`Github::Actions`](https://metacpan.org/pod/GitHub::Actions) for easier
+interaction with the Github Actions runtime.
+
 
 ## Generate script
 
