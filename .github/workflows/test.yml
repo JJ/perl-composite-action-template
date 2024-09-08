@@ -1,3 +1,4 @@
+name: Local checks
 on: [push]
 
 jobs:

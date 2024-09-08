@@ -12,3 +12,16 @@ After reading the template, you will have to change
   downloaded source.
 
 Change this README too, to explain how to use your template.
+
+## Install
+
+First, run 
+
+```
+cpanm --installdeps .
+```
+
+to install `fatpack`, needed to generate the single-file script.
+
+The source of the script will be in `action.src.pl`. Run `make` every time you
+change it to re-generate the fatpacked script that will be actually used.
