@@ -1,5 +1,8 @@
 name: 'Hello Perl'
 description: 'Perl Github Action Template'
+branding:
+  icon: 'briefcase'
+  color: 'blue'
 inputs:
   template-input:  # Change this
     description: 'What it is about'
