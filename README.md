@@ -12,8 +12,13 @@ After reading the template, you will have to change
 - [`action.src.pl`](action.src.pl) is source of the script that will have to be
   run, generally on downloaded source. See below for instructions on how to
   generate de script
+- [`lib/Action.pm`](lib/Action.pm) to the name of the module you will be
+  actually using; since this will run in the common space, these modules will
+  need to have an unique name to avoid clashing with others installed on the
+  system or on other Actions.
 
-Change this README too, to explain how to use your template.
+Change this README too, to explain how to use your template. Check the rest of
+the files and change or delete if you're not using them.
 
 ## Install
 

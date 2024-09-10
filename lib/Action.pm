@@ -1,4 +1,4 @@
-package Action;
+package Action; # Remember to change name to avoid clashes with others
 
 use Git;
 
