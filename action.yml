@@ -11,5 +11,10 @@ runs:
     - uses: actions/checkout@v4
     - run: print %ENV;
       shell: perl {0}
+    - name: Print input
+      env:
+        TEMPLATE_INPUT: ${{ inputs.template-input}}
+      run: print $ENV{'TEMPLATE_INPUT'}
+      shell: perl {0}
     - run: ${GITHUB_ACTION_PATH}/action.pl
       shell: bash

@@ -7,7 +7,8 @@ set it up.
 After reading the template, you will have to change
 
 - [`action.yml`](action.yml), which describes the action and how it works:
-  inputs will have to be changed, as well as description
+  inputs will have to be changed, as well as description, and obviously the
+  steps. A couple of example steps are included.
 - [`action.src.pl`](action.src.pl) is source of the script that will have to be
   run, generally on downloaded source. See below for instructions on how to
   generate de script
@@ -16,7 +17,7 @@ Change this README too, to explain how to use your template.
 
 ## Install
 
-First, run 
+First, run
 
 ```
 cpanm --installdeps .
