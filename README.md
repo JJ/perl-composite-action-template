@@ -42,6 +42,6 @@ change it to re-generate the fatpacked script that will be actually used.
 
 ## License
 
-(c) JJ Merelo, 2024
+(c) JJ Merelo, 2024, 2025
 
 Licensed under GPL v3. See [LICENSE](LICENSE) for details
