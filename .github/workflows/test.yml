@@ -7,6 +7,6 @@ jobs:
     name: Testing
     steps:
     - name: checkout
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
     - id: foo
       uses: ./
